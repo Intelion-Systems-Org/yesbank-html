@@ -5,9 +5,6 @@
 *::-webkit-scrollbar {
     width: 5px;
 }
-*::-webkit-scrollbar-track {
-    background: #010c55;
-}
 *::-webkit-scrollbar-thumb {
     background: #3E4568;
 }
@@ -100,7 +97,10 @@ body{
     line-height: 22px;
     letter-spacing: -0.208px;
     text-transform: capitalize;
-    margin: 5px 0 0;
+    margin: 0 0 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
 }
 .inputField{
     width: 100%;
@@ -692,6 +692,113 @@ body{
     display: flex;
     justify-content: end;
 }
+.uploadedFileTitle{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 25px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.uploadedFileTitle>button{
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    cursor: pointer;
+}
+.fileUploadedSection{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+.fileSection{
+    width: 18%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 15px;
+    border: solid 1px #2F3765;
+    border-radius: 5px;
+}
+.fileSection>p{
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+}
+.pagesSection{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding: 0 15px 0 0;
+}
+.pageNumber{
+    width: 100%;
+    height: auto;
+}
+.pageNumber>img{
+    width: 100%;
+}
+.currentPage>img {
+    border: solid 3px #048CFA;
+}
+
+.fileEditFieldSection{
+    width: 82%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* overflow-x: hidden;
+    overflow-y: scroll;
+    padding: 0 15px 0 0; */
+}
+.editFieldSection{
+    display: flex;
+    gap: 30px;
+}
+.captureLabel{
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: -0.208px;
+    text-transform: none;
+    margin: 0 0 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.labelEdit{
+    width: auto;
+    display: flex;
+}
+.labelEdit>button{
+    width: auto;
+    height: 24px;
+    border: none;
+    background-color: transparent;
+    opacity: 0.5;
+}
+.labelEdit>button>img{
+    width: 20px;
+}
+.dataCapture{
+    width: 24px;
+    height: 24px;
+}
+
+
+
+
+
+
+
 
 
 
