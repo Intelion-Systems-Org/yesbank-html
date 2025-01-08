@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Dashboard</title>
+</head>
+<body>
+    
+  <div class="mainContainer">
+
+    <div class="menuNav">
+    
+        <div class="navBar">
+
+          <div class="navLogo">
+            <img src="/image/logo.png" alt="Logo" />
+          </div>
+
+          <button class="menuLink active">
+            <img src="/image/dashboard-icon.svg" alt="Icon" />Dashboard
+          </button>
+          <button class="menuLink">
+            <img src="/image/transaction-resubmit.svg" alt="Icon" />Transaction Resubmit
+          </button>
+          <button class="menuLink">
+            <img src="/image/transaction-failures.svg" alt="Icon" />Transaction Failures
+          </button>
+          <button class="menuLink">
+            <img src="/image/update-tran-id.svg" alt="Icon" />Update Tran ID
+          </button>
+          <button class="menuLink">
+            <img src="/image/posting.svg" alt="Icon" />Posting
+          </button>
+          <button class="menuLink">
+            <img src="/image/swift-status.svg" alt="Icon" />SWIFT Status
+          </button>
+          <button class="menuLink">
+            <img src="/image/swift-failures.svg" alt="Icon" />SWIFT Failures
+          </button>
+          <button class="menuLink">
+            <img src="/image/development-resubmit.svg" alt="Icon" />Development Resubmit
+          </button>
+          <button class="menuLink">
+            <img src="/image/update-care-rate.svg" alt="Icon" />Update Card Rate
+          </button>
+          <button class="menuLink">
+            <img src="/image/fbc-recovery.svg" alt="Icon" />FBC Recovery - Single UID
+          </button>
+          <button class="menuLink">
+            <img src="/image/fwc-limit.svg" alt="Icon" />FWC/Master Limit Resubmit
+          </button>
+          <button class="menuLink">
+            <img src="/image/limit-status.svg" alt="Icon" />Limit Resubmit
+          </button>
+          <button class="menuLink">
+            <img src="/image/sfms-status-icon.svg" alt="Icon" />SFMS Status
+          </button>
+          <button class="menuLink">
+            <img src="/image/irm-view.svg" alt="Icon" />IRM View
+          </button>
+          <button class="menuLink">
+            <img src="/image/electronic-bankguarantee.svg" alt="Icon" />Electronic Bank Guarantee
+          </button>
+        </div>
+
+        <button class="menuLink">
+          <img src="/image/logout-icon.svg" alt="Icon" />Logout
+        </button>
+
+    </div>
+
+    <div class="contentRightSide">
+      
+      <header class="headerSection">
+          <div class="headerSectionOne">
+            <button class="navOpenBtn">
+              <img src="image/nav-open-icon.svg" alt="Icon">
+            </button>
+
+            <div class="headerSearchSection">
+              <input type="text" placeholder="Search..." class="headerSearch" />
+              <button class="searchBtn"><img src="image/search-icon.svg" alt="Icon"></button>
+            </div>
+          </div>
+
+          <div class="userInfoSection">
+            <div class="employeeImage">
+              <img src="image/dummy-img.jpg" alt="Image" />
+            </div>
+            <div class="employeeId">532456</div>
+            <div class="dropdownBtn"><img src="image/down-angle-icon.svg" alt="Icon" /></div>
+          </div>
+      </header>
+
+      <div class="containerSection">
+        
+        <div class="breadcrumbSection">
+          <button class="breadcrumbLink">
+            <img src="image/dashboard-icon.svg" alt="Icon" />Dashboard
+          </button>
+        </div>
+
+        <div class="dateSection">
+          <div class="fieldSection">
+            <label class="label">From Date</label>
+            <input type="text" class="inputField" placeholder="dd/mm/yyyyy" />
+            <button class="inputFieldIcon"><img src="image/date-calendar-icon.svg" alt="Icon" /></button>
+          </div>
+          <div class="fieldSection">
+            <label class="label">To Date</label>
+            <input type="text" class="inputField" placeholder="dd/mm/yyyyy" />
+            <button class="inputFieldIcon"><img src="image/date-calendar-icon.svg" alt="Icon" /></button>
+          </div>
+          <button class="Btn submitBtn">
+            Submit<img src="image/submit-icon.svg" alt="">
+          </button>
+        </div>
+
+
+        <div class="dashboardGraphSection">
+          <div class="dashboardDataSection">
+            
+            <div class="firstDataSection">
+              <div class="dataHeading">Staging Data</div>
+              <div class="graphSection">
+                <img src="image/graph-image.svg" alt="Image">
+                <div class="graphSectionScore">75<span>%</span></div>
+              </div>
+            </div>           
+            <div class="secondDataSection">
+              <div class="scoreListSection">
+                <p>Succeeded</p>
+                <div class="scoreNumber">90<span class="succeededBg"></span></div>
+              </div>
+              <div class="scoreListSection">
+                <p>Failed</p>
+                <div class="scoreNumber">90<span class="succeededBg"></span></div>
+              </div>
+              <div class="scoreListSection">
+                <p>Suppressed</p>
+                <div class="scoreNumber">90<span class="failedBg"></span></div>
+              </div>
+              <div class="scoreListSection">
+                <p>Transmitted</p>
+                <div class="scoreNumber">90<span class="succeededBg"></span></div>
+              </div>
+              <div class="scoreListSection">
+                <p>Error</p>
+                <div class="scoreNumber">90<span class="succeededBg"></span></div>
+              </div>
+
+              <div class="totalScoreSection">
+                <p>Total</p>
+                <span>166</span>
+              </div>
+
+            </div>
+          </div>
+          <div class="dashboardDataSection">
+            
+            <div class="firstDataSection">
+              <div class="dataHeading">Static Data</div>
+              <div class="graphSection">
+                <img src="image/graph-image.svg" alt="Image">
+                <div class="graphSectionScore">75<span>%</span></div>
+              </div>
+            </div>           
+            <div class="secondDataSection">
+              <div class="scoreListSection">
+                <p>Succeeded</p>
+                <div class="scoreNumber">90<span class="succeededBg"></span></div>
+              </div>
+              <div class="scoreListSection">
+                <p>Failed</p>
+                <div class="scoreNumber">90<span class="succeededBg"></span></div>
+              </div>
+              <div class="scoreListSection">
+                <p>Suppressed</p>
+                <div class="scoreNumber">90<span class="failedBg"></span></div>
+              </div>
+              <div class="scoreListSection">
+                <p>Transmitted</p>
+                <div class="scoreNumber">90<span class="succeededBg"></span></div>
+              </div>
+              <div class="scoreListSection">
+                <p>Error</p>
+                <div class="scoreNumber">90<span class="succeededBg"></span></div>
+              </div>
+
+              <div class="totalScoreSection">
+                <p>Total</p>
+                <span>166</span>
+              </div>
+
+            </div>
+          </div>
+          <div class="dashboardDataSection">
+            
+            <div class="firstDataSection">
+              <div class="dataHeading">Service Data</div>
+              <div class="graphSection">
+                <img src="image/graph-image.svg" alt="Image">
+                <div class="graphSectionScore">75<span>%</span></div>
+              </div>
+            </div>           
+            <div class="secondDataSection">
+              <div class="scoreListSection">
+                <p>Succeeded</p>
+                <div class="scoreNumber">90<span class="succeededBg"></span></div>
+              </div>
+              <div class="scoreListSection">
+                <p>Failed</p>
+                <div class="scoreNumber">90<span class="succeededBg"></span></div>
+              </div>
+              <div class="scoreListSection">
+                <p>Suppressed</p>
+                <div class="scoreNumber">90<span class="failedBg"></span></div>
+              </div>
+              <div class="scoreListSection">
+                <p>Transmitted</p>
+                <div class="scoreNumber">90<span class="succeededBg"></span></div>
+              </div>
+              <div class="scoreListSection">
+                <p>Error</p>
+                <div class="scoreNumber">90<span class="succeededBg"></span></div>
+              </div>
+
+              <div class="totalScoreSection">
+                <p>Total</p>
+                <span>166</span>
+              </div>
+
+            </div>
+          </div>
+          <div class="dashboardDataSection">
+            
+            <div class="firstDataSection">
+              <div class="dataHeading">Transaction Data</div>
+              <div class="graphSection">
+                <img src="image/graph-image.svg" alt="Image">
+                <div class="graphSectionScore">75<span>%</span></div>
+              </div>
+            </div>           
+            <div class="secondDataSection">
+              <div class="scoreListSection">
+                <p>Succeeded</p>
+                <div class="scoreNumber">90<span class="succeededBg"></span></div>
+              </div>
+              <div class="scoreListSection">
+                <p>Failed</p>
+                <div class="scoreNumber">90<span class="succeededBg"></span></div>
+              </div>
+              <div class="scoreListSection">
+                <p>Suppressed</p>
+                <div class="scoreNumber">90<span class="failedBg"></span></div>
+              </div>
+              <div class="scoreListSection">
+                <p>Transmitted</p>
+                <div class="scoreNumber">90<span class="succeededBg"></span></div>
+              </div>
+              <div class="scoreListSection">
+                <p>Error</p>
+                <div class="scoreNumber">90<span class="succeededBg"></span></div>
+              </div>
+
+              <div class="totalScoreSection">
+                <p>Total</p>
+                <span>166</span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+      <footer class="footerSection">© 2024 Union Bank Of India</footer>
+    </div>
+
+  </div>
+
+</body>
+</html>
