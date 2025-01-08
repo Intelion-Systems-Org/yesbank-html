@@ -513,6 +513,12 @@ body{
 .failedBg{
     background-color: #FF474E;
 }
+.succeededBg{
+    background-color: #00DF1D;
+}
+.suppressedBG{
+    background-color: #01D4E6;
+}
 .submitBtn{
     width: 135px;
     font-size: 18px;
