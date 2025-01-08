@@ -267,12 +267,16 @@ body{
     gap: 10px;
 }
 .menuLink>img{
-    width: 20px;
+    width: 18px;
 }
 .menuLink.active{
     padding: 10px 0 10px 10px;
     border-radius: 5px 0px 0px 5px;
     background-color: #000936;
+}
+.menuLinkDisable{
+    cursor:auto;
+    opacity: 0.5;
 }
 .headerSection{
     width: 100%;
