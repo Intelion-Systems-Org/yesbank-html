@@ -744,6 +744,11 @@ body{
 }
 .pageNumber>img{
     width: 100%;
+    cursor: pointer;
+    border: solid 3px transparent;
+}
+.pageNumber>img:hover {
+    border: solid 3px #048CFA;
 }
 .currentPage>img {
     border: solid 3px #048CFA;
@@ -777,6 +782,7 @@ body{
 .labelEdit{
     width: auto;
     display: flex;
+    align-items: center;
 }
 .labelEdit>button{
     width: auto;
@@ -784,6 +790,7 @@ body{
     border: none;
     background-color: transparent;
     opacity: 0.5;
+    cursor: pointer;
 }
 .labelEdit>button>img{
     width: 20px;
@@ -792,7 +799,10 @@ body{
     width: 24px;
     height: 24px;
 }
-
+.labelEdit>span{
+    font-size: 12px;
+    color: #5F5F5F;
+}
 
 
 
